@@ -1,0 +1,65 @@
+## Compiled source #
+bin/
+obj/
+
+## User-specific files #
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results #
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio Code #
+.vscode/
+*.code-workspace
+
+## Visual Studio for Mac #
+.vscode/
+.idea/
+*.sln.iml
+
+## OS generated files #
+.DS_Store
+Thumbs.db
+
+## DotCover #
+.idea/
+
+## Rider #
+.idea/
+*.sln.iml
+
+## Logs and database #
+*.log
+*.sql
+*.sqlite
+
+## NuGet Packages #
+*.nupkg
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+## Others you might want to ignore ##
+*.bak
+*.tmp
+*.cache
+*.config.old
+*.db
+
+## dotenv / secrets
+.env
+.env.*
+secrets.json
